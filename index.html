@@ -98,7 +98,7 @@
 		z-index: 1;
    }
 
-	 .content > div {overflow-y: auto; display: flex; flex-direction: column;}
+   .content > div {overflow-y: auto; display: flex; flex-direction: column;}
 
    #work{right: 10%; top:0%; transition: top 2s ease; flex-direction: column-reverse;}
    #life{left: 10%; bottom: 0%; transition: bottom 2s ease; flex-direction: column;}
@@ -280,9 +280,8 @@ body.dark{background-color: #222; color: #fff}
 	       <h4 title="*bill paying not guaranteed">Skills</h4>
 	       <ul>
 	        <li>css, html and <span title="bootstrap, lessCSS, css3, html5">friends</span></li>
-	        <li>javascript</li>
+	        <li>javascript, react.js</li>
 	        <li>copywriting and proofreading</li>
-	        <li>php</li>
 	        <li>insatiable curiosity</li>
 	      </ul>
 			</div>
@@ -300,13 +299,13 @@ body.dark{background-color: #222; color: #fff}
 		<div>
     	<div>
       <h4>Bio</h4>
-      <p>Fortunate to have found the fun and fullfilment of the front end. Flair for figuring out foolproof fixes. Fascinated by fiddling with full stack. Frequently freelance. </p>
+      <p>Fortunate to have found the fun and fullfilment of the front end. Flair for figuring out foolproof fixes. Fascinated by fiddling with full stack. </p>
      </div>
      <div>
        <h4>Education</h4>
        <ul>
-        <li>University of Edinburgh <br>   -> MSc Translation Studies </li>
-        <li>University of Dublin, Trinity College <br>   -> BA Computer Science, Linguistics and French </li>
+        <li>University of Edinburgh <br>   > MSc Translation Studies </li>
+        <li>University of Dublin, Trinity College <br>   > BA Computer Science, Linguistics and French </li>
       </ul>
     </div>
     	<div>
@@ -333,7 +332,6 @@ $(document).ready(function(){
 		$(this).parent().siblings().addClass("out");
 		$(this).parent().toggleClass("in out");
 
-      //update circle position based on open section - #toDo
     });
 
 		// Toggle Site Colour
